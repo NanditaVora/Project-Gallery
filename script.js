@@ -46,7 +46,7 @@ function ensureControls() {
   const placeholder = document.createElement('option');
   placeholder.value = 'ALL';
   placeholder.textContent = 'All Tracks';
-  select.appendChild(placeholder);
+  // select.appendChild(placeholder);
 
   select.addEventListener('change', () => {
     applyFilter(select.value);

@@ -111,6 +111,200 @@
       "Visualize predictions with Power BI dashboards",
       "Use GenAI tools for report generation and insights"
     ]
+  },
+  {
+    "type": "Course End Project",
+    "header": "Java Programming",
+    "track": "Software Engineering",
+    "project_title": "Build a Smart Pizza Ordering System",
+    "brief_description": "Smart pizza ordering system powered by Java.",
+    "detailed_description": "Create a user-friendly pizza ordering application using Java. The system guides customers through every step—from entering details to selecting pizzas, applying discounts, and viewing the final bill. It ensures smooth user experience and efficient backend processing.",
+    "technologies_used": ["Java", "OOP Concepts", "Swing GUI", "File Handling"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Capture and validate customer details",
+      "Menu selection with quantity inputs",
+      "Apply and calculate promotional discounts",
+      "Generate and display final bill summary",
+      "Improve restaurant order management"
+    ]
+  },
+  {
+    "type": "Course End Project",
+    "header": "Web Development using HTML & CSS",
+    "track": "Software Engineering",
+    "project_title": "Design a Responsive Restaurant Website",
+    "brief_description": "Responsive restaurant website with modern design and flair.",
+    "detailed_description": "Design and develop a responsive restaurant website that displays menus, contact information, timings, and reviews. Focus on mobile-friendly design and smooth navigation to provide an appealing digital presence for the restaurant.",
+    "technologies_used": ["HTML5", "CSS3", "Bootstrap", "JavaScript"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Responsive layout for all devices",
+      "Interactive menu and dish details",
+      "Contact info and embedded Google Map",
+      "Operating hours and reservation form",
+      "Showcase testimonials or featured dishes"
+    ]
+  },
+  {
+    "type": "Course End Project",
+    "header": "Web App using HTML, CSS & JS",
+    "track": "Software Engineering",
+    "project_title": "Develop a Restaurant Order Management App",
+    "brief_description": "Smart order processing platform for restaurants.",
+    "detailed_description": "Build a robust order management web app that helps restaurant staff handle reservations and orders seamlessly. It streamlines workflows, reduces delays, and enhances customer service during busy hours.",
+    "technologies_used": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "LocalStorage"],
+    "genai_generated_image": "",
+    "core_features": [
+      "View and manage digital menus",
+      "Reserve tables and handle bookings",
+      "Track ongoing and completed orders",
+      "Generate order summaries and invoices",
+      "Facilitate communication between staff and kitchen"
+    ]
+  },
+  {
+    "type": "Course End Project",
+    "header": "Java Application Development",
+    "track": "Software Engineering",
+    "project_title": "Automate School Grading and Records",
+    "brief_description": "Automated grading and student record management system.",
+    "detailed_description": "Develop a school management application that automates grading and record-keeping for students. The project simplifies administrative tasks, reduces manual errors, and enhances transparency in performance tracking.",
+    "technologies_used": ["Java", "JDBC", "MySQL", "File Handling"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Input and manage student details",
+      "Calculate grades from raw scores",
+      "Generate performance and report cards",
+      "Store and retrieve academic records",
+      "Export reports for administrative use"
+    ]
+  },
+  {
+    "type": "Course End Project",
+    "header": "Web App Development",
+    "track": "Software Engineering",
+    "project_title": "Create a Course Enrollment Portal",
+    "brief_description": "Streamlined course enrollment system for students.",
+    "detailed_description": "Develop a course enrollment portal where students can browse, explore, and register for various educational programs. It provides a simple, user-friendly interface for both students and administrators.",
+    "technologies_used": ["HTML5", "CSS3", "JavaScript", "MySQL", "PHP"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Browse available courses with search and filters",
+      "View detailed course information",
+      "Track enrollment history and status",
+      "Simplify course registration workflows",
+      "Admin module to manage course catalog"
+    ]
+  },
+  {
+    "type": "Course End Project",
+    "header": "Python Programming",
+    "track": "Software Engineering",
+    "project_title": "Build a Personal Task Manager App",
+    "brief_description": "Smart task management app for everyday productivity.",
+    "detailed_description": "Create a lightweight task management tool that lets users plan, organize, and complete daily tasks efficiently. Designed with simplicity and productivity in mind, it helps users maintain focus and track progress effortlessly.",
+    "technologies_used": ["Python", "Tkinter", "SQLite", "File Handling"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Add, edit, and delete tasks with due dates",
+      "Mark tasks as complete or pending",
+      "Categorize tasks by priority or type",
+      "Track productivity trends over time",
+      "Set reminders for important deadlines"
+    ]
+  },
+  {
+    "type": "Course End Project",
+    "header": "JavaScript Programming",
+    "track": "Software Engineering",
+    "project_title": "Develop an Event Ticket Booking System",
+    "brief_description": "Easy event ticket and food combo booking system.",
+    "detailed_description": "Develop a web-based booking system for events and shows, where users can select tickets, add food combos, and check out seamlessly. The app ensures transparent billing, fast processing, and a delightful booking experience.",
+    "technologies_used": ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Browse and select event tickets",
+      "Add food combos to the booking",
+      "Real-time total cost calculation",
+      "Display confirmation and booking summary",
+      "View and manage booking history"
+    ]
+  },
+  {
+    "type": "Course End Project",
+    "header": "React Web Development",
+    "track": "Software Engineering",
+    "project_title": "Build a Custom Cake Ordering Website",
+    "brief_description": "Single-page website for custom cake orders.",
+    "detailed_description": "Build a visually appealing, single-page application for a cake shop. Users can browse available cakes, submit custom cake requests, and explore reviews—all within a smooth and interactive user interface.",
+    "technologies_used": ["HTML5", "CSS3", "JavaScript", "React", "REST API"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Showcase cakes and bakery offerings",
+      "Custom order request form",
+      "Responsive, mobile-friendly design",
+      "Customer testimonials integration",
+      "Capture and store customer details"
+    ]
+  },
+  {
+    "type": "Capstone Project",
+    "header": "Capstone Project",
+    "track": "Software Engineering",
+    "project_title": "Build an Online Dairy Store Platform",
+    "brief_description": "Single-page dairy store web app with cart and offers.",
+    "detailed_description": "Design and implement a full-featured single-page web app for a dairy shop where users can browse products, add items to cart, and complete their orders. The app offers a seamless e-commerce experience with modern design and easy navigation.",
+    "technologies_used": ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "Express.js", "MongoDB"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Display dynamic dairy product catalog",
+      "Add to cart and secure checkout",
+      "Product search and filtering options",
+      "Apply discounts and view offers",
+      "Generate invoice and order summary",
+      "Admin panel to manage inventory",
+      "User authentication and order tracking"
+    ]
+  },
+  {
+    "type": "Capstone Project",
+    "header": "Capstone Project",
+    "track": "Software Engineering",
+    "project_title": "Develop a Team Collaboration Platform",
+    "brief_description": "Comprehensive team planner and collaboration tool.",
+    "detailed_description": "Build a collaborative productivity platform for individuals and teams. WorkWise allows users to manage projects, assign tasks, share updates, and visualize progress through a unified dashboard.",
+    "technologies_used": ["Java", "Spring Boot", "React", "MySQL", "REST API", "HTML5", "CSS3"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Create and assign team tasks",
+      "Track status and progress updates",
+      "Collaborate through shared notes and files",
+      "Custom dashboards for project overviews",
+      "Automated reminders and task prioritization",
+      "User authentication and access control",
+      "Data persistence with relational database"
+    ]
+  },
+  {
+    "type": "Capstone Project",
+    "header": "Capstone Project",
+    "track": "Software Engineering",
+    "project_title": "Create a Smart Goal Tracking Application",
+    "brief_description": "Personalized to-do and goal tracker with insights.",
+    "detailed_description": "Design a personalized goal-tracking application that adapts to user habits and preferences. The system helps users organize their tasks, monitor progress visually, and stay on top of long-term goals.",
+    "technologies_used": ["React", "JavaScript", "Node.js", "Express.js", "Firebase", "HTML5", "CSS3"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Create and manage custom goal lists",
+      "Drag-and-drop task organization",
+      "Daily and weekly progress visualization",
+      "Cross-device data synchronization",
+      "Analytics and reports on task completion",
+      "Secure login and cloud storage",
+      "Progress insights using data visualization"
+    ]
   }
-
 ]
+
+

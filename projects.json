@@ -1,0 +1,116 @@
+[
+  {
+    "type": "Course End Project",
+    "header":"DA using Excel",
+    "track": "Data Analytics",
+    "project_title": "Use Social Media Trends data to tell a story",
+    "brief_description": "Analyse social data, tell visual stories, and capture insights.",
+    "detailed_description": "Analyze and visualize social media engagement data to uncover trending topics, audience preferences, and sentiment insights. Present findings using dashboards and storytelling techniques that make data engaging and easy to interpret.",
+    "technologies_used": ["Excel", "PivotCharts", "Descriptive Stats", "Data Storytelling"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Collect and organize social media data",
+      "Create interactive Excel dashboards",
+      "Use PivotCharts for trend visualization",
+      "Apply storytelling principles to data insights"
+    ]
+  },
+  {
+    "type": "Course End Project",
+    "header":"DA using SQL",
+    "track": "Data Analytics",
+    "project_title": "Slice and dice data to support business",
+    "brief_description": "Design, manage, and analyze patient data",
+    "detailed_description": "Develop a relational database for hospital operations to manage patient records, appointments, staff details, and treatments. Use SQL queries and stored procedures to efficiently retrieve and analyze medical data.",
+    "technologies_used": ["MySQL", "SQL Queries", "ER Diagrams", "Stored Procedures"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Design ER diagrams for hospital workflows",
+      "Create and normalize relational tables",
+      "Develop SQL queries and stored procedures",
+      "Generate analytical reports on patient and staff data"
+    ]
+  },
+  {
+    "type": "Course End Project",
+    "header":"Python Programming",
+    "track": "Data Analytics",
+    "project_title": "Show case and sharpen Python coding",
+    "brief_description": "Build a smart finance tracker on daily expenses.",
+    "detailed_description": "Develop a Python-based financial tracker that helps users record, categorize, and analyze expenses. Implement data structures and file handling to store and process financial data efficiently.",
+    "technologies_used": ["Python", "File Handling", "Functions", "Data Structures"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Add, update, and delete expense records",
+      "Categorize expenses automatically",
+      "Generate monthly and category-wise reports",
+      "Store data persistently using file handling"
+    ]
+  },
+  {
+    "type": "Course End Project",
+    "header":"EDA using Python",
+    "track": "Data Analytics",
+    "project_title": "Work like a Data Analyst on E-commerce Behavior",
+    "brief_description": "Explore shopper patterns to uncover insights that drive sales.",
+    "detailed_description": "Analyze e-commerce transaction data to identify patterns in user behavior, popular product categories, and conversion trends. Use Python and visualization tools to derive insights that support marketing strategies.",
+    "technologies_used": ["Python", "Pandas", "Seaborn", "Exploratory Data Analysis"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Clean and preprocess e-commerce datasets",
+      "Perform exploratory data analysis with Pandas",
+      "Visualize buying behavior using Seaborn",
+      "Identify customer segments and sales drivers"
+    ]
+  },
+  {
+    "type": "Course End Project",
+    "header":"EDA using Power BI",
+    "track": "Data Analytics",
+    "project_title": "Work like a BI Analyst on Sales and Revenue",
+    "brief_description": "Turn business data into powerful, insight-rich dashboards.",
+    "detailed_description": "Build interactive Power BI dashboards that visualize key sales and revenue metrics. Use Power Query and DAX to clean, transform, and model data for actionable business intelligence.",
+    "technologies_used": ["Power BI", "Power Query", "DAX", "Data Visualization"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Integrate data from multiple business sources",
+      "Model relationships between datasets",
+      "Create KPIs and measures using DAX",
+      "Design interactive, visually appealing dashboards"
+    ]
+  },
+  {
+    "type": "Course End Project",
+    "header":"Statistics and Machine Learning",
+    "track": "Data Analytics",
+    "project_title": "Work like a Data Analyst to Predict Customer Churn",
+    "brief_description": "Identify customers at risk of leaving and boost retention.",
+    "detailed_description": "Analyze customer behavior data to predict churn using statistical and machine learning techniques. Apply hypothesis testing and inferential statistics to validate patterns and suggest retention strategies.",
+    "technologies_used": ["Python", "Inferential Statistics", "Hypothesis Testing", "Machine Learning"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Preprocess customer and transaction data",
+      "Perform statistical tests and correlation analysis",
+      "Build and evaluate churn prediction models",
+      "Recommend strategies to improve retention"
+    ]
+  },
+  {
+    "type": "Capstone Project",
+    "header":"Capstone Project",
+    "track": "Data Analytics",
+    "project_title": "Predict Like a Data Analyst",
+    "brief_description": "Predict product demand to optimize stock and boost business efficiency.",
+    "detailed_description": "Develop a complete analytics solution that combines data collection, cleaning, analysis, and machine learning to forecast product demand. Use Python, SQL, Power BI, and Excel for an integrated approach to business intelligence and predictive modeling.",
+    "technologies_used": ["Python", "SQL", "Power BI", "Excel", "Machine Learning", "GenAI tools"],
+    "genai_generated_image": "",
+    "core_features": [
+      "Collect and integrate data from multiple business sources",
+      "Clean and preprocess sales and inventory data",
+      "Build machine learning models to forecast demand",
+      "Visualize predictions with Power BI dashboards",
+      "Use GenAI tools for report generation and insights"
+    ]
+  }
+
+]

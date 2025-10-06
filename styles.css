@@ -1,0 +1,225 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 2rem;
+  }
+
+:root {
+  /* Brand palette (change these HEXs as needed) */
+  --brand-strong: #0ea5a4; /* teal-ish */
+  --brand-mid: #3b82f6; /* blue */
+  --brand-accent: #f59e0b; /* amber */
+  --capstone-bg: #fff4e6;
+}
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* force exactly 3 columns */
+    column-gap: 0.25rem; /* larger horizontal spacing between cards */
+    row-gap: 2.5rem; /* vertical spacing between rows */
+  }
+
+  .top-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.4));
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(2,6,23,0.06);
+  }
+
+  .page-header {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .page-header .header-icon {
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px rgba(59,130,246,0.12);
+    background: linear-gradient(135deg, var(--brand-strong) 0%, var(--brand-mid) 100%);
+  }
+
+  .page-header .header-badge {
+    background: linear-gradient(90deg,var(--brand-strong),var(--brand-mid));
+    color: white;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+  }
+
+  .internal-note {
+    color: #6b7280;
+    font-size: 0.9rem;
+    background: #fff7cc;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #f3e8c6;
+  }
+
+  .track-select {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+  }
+  
+  .card {
+    background-color: #e7f6f2;
+    border-radius: 10px;
+    padding: 0.5rem; /* ultra compact padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+    text-align: center;
+    transition: transform 0.12s ease;
+    display: flex;
+    flex-direction: column;
+    min-height: 110px; /* ultra compact tile height */
+    max-width: 320px; /* visually reduce card width */
+    margin: 0 auto; /* center card in its grid cell */
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card img {
+    height: 48px; /* ultra compact image */
+    object-fit: contain;
+    margin-bottom: 0.35rem;
+  }
+  
+  .card h3 {
+    font-size: 0.88rem;
+    font-weight: 600;
+    margin-bottom: 0.1rem;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 0.68rem;
+    color: #666;
+    margin-bottom: 0.35rem;
+  }
+  
+  .label {
+    font-size: 1rem;
+    background: #e0f2f1;
+    padding: 4px 10px;
+    /* display: inline-block; */
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    color: #00796b;
+    font-weight: bold;
+  }
+
+.card.capstone {
+  background-color: #fff4e6; /* light warm color for capstone */
+  border: 1px solid #ffe6b3;
+}
+.card.capstone .label {
+  color: #a52a2a;
+  background-color: #f5ede2; /* light warm color for capstone */
+
+}
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem; /* increased gap between chips */
+    margin-top: 15px; /* push tags to bottom so cards align */
+  }
+  
+  .tag {
+    padding: 6px 10px; /* increased padding for better touch targets */
+    border-radius: 16px;
+    border: 1px solid #000;
+    font-size: 0.78rem;
+    color: #000;
+    background-color: #fff;
+    transition: background 0.12s ease;
+    white-space: nowrap; /* keep words intact */
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px;
+  }
+
+/* Truncation rules to keep words intact and add ellipsis */
+.title, .brief {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; /* single-line title/brief by default */
+  word-break: keep-all; /* avoid breaking words across lines */
+}
+
+/* For smaller screens allow brief description to wrap but still keep words whole and limit lines */
+@media (max-width: 520px) {
+  .brief {
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* show up to 2 lines */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* Ensure images don't overflow their container */
+.image-wrap { display:flex; justify-content:center; align-items:center; height:120px; }
+.image-wrap img { max-width:100%; max-height:100%; }
+
+/* Reduce image height and card size on smaller screens */
+@media (max-width: 780px) {
+  .image-wrap { height:100px; }
+  .card { min-height: 170px; }
+}
+
+@media (max-width: 520px) {
+  .image-wrap { height:80px; }
+  .card { min-height: 150px; padding: 0.9rem; }
+  .top-controls { align-items: center; text-align: center; }
+  .page-header { justify-content: center; }
+}
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .pagination button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #007f5f;
+    transition: transform 0.2s ease;
+  }
+  
+  .pagination button:hover {
+    transform: scale(1.2);
+  }
+  
+  .pagination button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
